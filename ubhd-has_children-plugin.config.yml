@@ -1,0 +1,14 @@
+plugin:
+  name: ubhd-has_children-plugin
+  version: 1.0
+  url: https://github.com/programmfabrik/ubhd-has_children-plugin
+  displayname:
+    de-DE: Has-Children-Hint Plugin
+    en-US: Has-Children-Hint Plugin
+  info:
+    de-DE: "Hinweis auf vorhandene Kindknoten"
+    en-US: "Hinweis auf vorhandene Kindknoten"
+  webfrontend:
+    url: ubhd-has_children-plugin.js
+    l10n: l10n/
+    css: ubhd-has_children-plugin.css
