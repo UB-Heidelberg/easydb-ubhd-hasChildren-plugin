@@ -16,7 +16,8 @@ ez5.session_ready =>
 				if (btn)
 					CUI.dom.data(btn).element.addClass("ubhd-hierarchy-button-red")
 			if (has_children)
-				el = CUI.dom.findElement(ds.__detail_div, 'div.ez5-fields-renderer-head-container div.fields-renderer-plain')
+				console.log('ds',ds)
+				el = CUI.dom.findElement(ds.__card_div, 'div.ez5-result-card-info')
 				if (el)
 					i = new CUI.Icon({icon: "svg-hierarchy"})
 					t = new CUI.Label(text: $$("ubhd-hierarchy-text"))
@@ -26,5 +27,5 @@ ez5.session_ready =>
 						center:
 							content: t
 							class: 'ubhd-hierarchy-text'
-						class: 'ez5-field-block'
+						class: 'ubhd-hierarchy-block'
 					CUI.dom.append(el, b)
