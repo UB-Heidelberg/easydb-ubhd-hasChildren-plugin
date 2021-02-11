@@ -8,8 +8,7 @@ ez5.session_ready =>
 			btn = CUI.dom.findElement(ds.container.DOM, "[ez5-loca-key='detail.sidebar.hierarchy.button']")
 			has_parent = false
 			has_children = false
-			el_parent = CUI.dom.findElement(ds.__detail_div,'div.ez5-fields-renderer-head-container div.ez5-linked-object-hierarchy')
-			if (el_parent)
+			if (obj.getData().objekte._id_parent)
 				has_parent = true
 			if (obj.getData()._has_children)
 				has_children = true
