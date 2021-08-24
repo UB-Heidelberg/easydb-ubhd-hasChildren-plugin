@@ -1,21 +1,18 @@
-PLUGIN_NAME = ubhd-has_children-plugin
+PLUGIN_NAME = easydb-ubhd-hasChildren-plugin
 
 INSTALL_FILES = \
 	$(WEB)/l10n/cultures.json \
 	$(WEB)/l10n/de-DE.json \
 	$(WEB)/l10n/en-US.json \
 	$(CSS) \
-	$(WEB)/ubhd-has_children-plugin.js \
-	ubhd-has_children-plugin.yml
+	$(WEB)/easydb-ubhd-hasChildren-plugin.js \
+	manifest.yml
 
-L10N_FILES = l10n/ubhd-has_children-plugin.csv
+L10N_FILES = l10n/easydb-ubhd-hasChildren-plugin.csv
 
-#L10N_GOOGLE_KEY = 1Z3UPJ6XqLBp-P8SUf-ewq4osNJ3iZWKJB83tc6Wrfn0
-#L10N_GOOGLE_GID = 1105524345
+CSS = $(WEB)/easydb-ubhd-hasChildren-plugin.css
 
-CSS = $(WEB)/ubhd-has_children-plugin.css
-
-SCSS_FILES = src/webfrontend/ubhd-has_children-plugin.scss
+SCSS_FILES = src/webfrontend/easydb-ubhd-hasChildren-plugin.scss
 
 COFFEE_FILES = \
 	src/webfrontend/UbhdHasChildrenPlugin.coffee

@@ -1,0 +1,14 @@
+plugin:
+  name: easydb-ubhd-hasChildren-plugin
+  version: 1.1
+  url: https://github.com/UB-Heidelberg/easydb-ubhd-hasChildren-plugin 
+  displayname:
+    de-DE: Has-Children-Hint Plugin
+    en-US: Has-Children-Hint Plugin
+  info:
+    de-DE: "Hinweis auf vorhandene Kindknoten"
+    en-US: "Hinweis auf vorhandene Kindknoten"
+  webfrontend:
+    url: easydb-ubhd-hasChildren-plugin.js
+    l10n: l10n/
+    css: easydb-ubhd-hasChildren-plugin.css

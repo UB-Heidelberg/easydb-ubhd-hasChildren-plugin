@@ -1,4 +1,4 @@
-# ubhd-has_children-plugin
+# easydb-ubhd-hasChildren-plugin
 
 Plugin für [easydb5](https://www.programmfabrik.de/easydb)
 
