@@ -1,5 +1,5 @@
 ez5.session_ready =>
-	ez5.pluginManager.getPlugin("ubhd-has_children-plugin").loadCss()
+	ez5.pluginManager.getPlugin("easydb-ubhd-hasChildren-plugin").loadCss()
 	CUI.Events.listen
 		type: "detail-sidebar-render-object"
 		call: (ev, info) =>
